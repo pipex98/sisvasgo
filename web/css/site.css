@@ -1,0 +1,20 @@
+html,
+body {
+    height: 100%;
+}
+
+.swal-text {
+    text-align: center;
+}
+
+@media print {
+    .noprint {
+        display: none !important;
+    }
+    .deposit {
+        background-color: #999;
+        display: flex;
+        padding-top: 1em;
+        margin-bottom: 1em;
+    }
+}
